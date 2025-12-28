@@ -31,15 +31,16 @@ I'm actively seeking opportunities where I can contribute my skills, grow as a p
 
 <div align="center">
   
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=theblkguy&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Banjoko's GitHub stats" />
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=theblkguy&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theblkguy&theme=radical" alt="Banjoko's GitHub stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=theblkguy&theme=radical" alt="Top Languages" />
   
 </div>
 
 <div align="center">
   
-  <img src="https://streak-stats.demolab.com/?user=theblkguy&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=theblkguy&theme=radical" alt="GitHub Stats" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=theblkguy&theme=radical&utcOffset=0" alt="Productive Time" />
+  <img width="32%" src="https://streak-stats.demolab.com/?user=theblkguy&theme=radical&hide_border=true" alt="GitHub Streak" />
   
 </div>
 
