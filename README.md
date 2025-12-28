@@ -85,6 +85,4 @@ I'm actively seeking opportunities where I can contribute my skills, grow as a p
   
   ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=theblkguy.theblkguy&left_color=gray&right_color=blue)
   
-  ⭐️ From [theblkguy](https://github.com/theblkguy)
-  
 </div>
