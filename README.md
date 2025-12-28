@@ -2,13 +2,6 @@
 
 <div align="center">
   
-  <!-- Snake Game -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theblkguy/theblkguy/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theblkguy/theblkguy/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/theblkguy/theblkguy/output/github-contribution-grid-snake.svg" />
-  </picture>
-  
   ### Passionate Developer | Problem Solver | Creative Thinker
   
 </div>
@@ -51,6 +44,19 @@ I'm actively seeking opportunities where I can contribute my skills, grow as a p
 <div align="center">
   
   ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=theblkguy&theme=radical&hide_border=true)
+  
+</div>
+
+## 🐍 Contribution Snake Game
+
+<div align="center">
+  
+  <!-- Snake Game -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theblkguy/theblkguy/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theblkguy/theblkguy/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/theblkguy/theblkguy/output/github-contribution-grid-snake.svg" />
+  </picture>
   
 </div>
 
