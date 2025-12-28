@@ -31,18 +31,28 @@ I'm actively seeking opportunities where I can contribute my skills, grow as a p
 
 <div align="center">
   
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theblkguy&theme=radical" alt="Banjoko's GitHub stats" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=theblkguy&theme=radical" alt="Top Languages" />
+  <img height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theblkguy&theme=radical" alt="Banjoko's GitHub stats" />
   
 </div>
 
-<div align="center">
-  
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=theblkguy&theme=radical" alt="GitHub Stats" />
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=theblkguy&theme=radical&utcOffset=0" alt="Productive Time" />
-  <img width="32%" src="https://streak-stats.demolab.com/?user=theblkguy&theme=radical&hide_border=true" alt="GitHub Streak" />
-  
-</div>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=theblkguy&theme=radical" alt="GitHub Stats" />
+    </td>
+    <td width="50%" align="center">
+      <img height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=theblkguy&theme=radical" alt="Top Languages" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=theblkguy&theme=radical&utcOffset=0" alt="Productive Time" />
+    </td>
+    <td width="50%" align="center">
+      <img height="180px" src="https://streak-stats.demolab.com/?user=theblkguy&theme=radical&hide_border=true" alt="GitHub Streak" />
+    </td>
+  </tr>
+</table>
 
 ## 🔥 Contribution Graph
 
