@@ -1,0 +1,32 @@
+name: Generate Snake Game
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:     # Allows manual triggering
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Create output directory
+        run: mkdir -p output
+      
+      - name: Generate snake
+        uses: Platane/snk@master
+        with:
+          github_user_name: theblkguy
+          gif_out_path: ./output/github-contribution-grid-snake.gif
+          svg_out_path: ./output/github-contribution-grid-snake.svg
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./output/github-contribution-grid-snake.svg ./output/github-contribution-grid-snake.gif
+          git commit -m "Generate snake game animation" || exit 0
+          git push
