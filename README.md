@@ -3,7 +3,11 @@
 <div align="center">
   
   <!-- Snake Game -->
-  ![Snake Game](https://github.com/theblkguy/theblkguy/blob/output/github-contribution-grid-snake.svg)
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theblkguy/theblkguy/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theblkguy/theblkguy/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/theblkguy/theblkguy/output/github-contribution-grid-snake.svg" />
+  </picture>
   
   ### Passionate Developer | Problem Solver | Creative Thinker
   
@@ -34,11 +38,11 @@ I'm actively seeking opportunities where I can contribute my skills, grow as a p
 
 <div align="center">
   
-  ![Banjoko's GitHub stats](https://github-readme-stats.vercel.app/api?username=theblkguy&show_icons=true&theme=radical&hide_border=true)
+  ![Banjoko's GitHub stats](https://github-readme-stats.vercel.app/api?username=theblkguy&show_icons=true&theme=radical&hide_border=true&include_all_commits=true)
   
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=theblkguy&layout=compact&theme=radical&hide_border=true)
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=theblkguy&layout=compact&theme=radical&hide_border=true)
   
-  ![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=theblkguy&theme=radical&hide_border=true)
+  ![GitHub Streak](https://streak-stats.demolab.com/?user=theblkguy&theme=radical&hide_border=true)
   
 </div>
 

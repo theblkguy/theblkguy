@@ -1,32 +1,38 @@
-name: Generate Snake Game
+name: Generate Snake
 
 on:
   schedule:
     - cron: "0 0 * * *"  # Runs daily at midnight UTC
-  workflow_dispatch:     # Allows manual triggering
+  workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Create output directory
-        run: mkdir -p output
-      
-      - name: Generate snake
-        uses: Platane/snk@master
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          ref: master
+
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        id: snake-gif
         with:
           github_user_name: theblkguy
-          gif_out_path: ./output/github-contribution-grid-snake.gif
-          svg_out_path: ./output/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and push
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add ./output/github-contribution-grid-snake.svg ./output/github-contribution-grid-snake.gif
-          git commit -m "Generate snake game animation" || exit 0
-          git push
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        if: always()
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Update snake animation [skip ci]
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
