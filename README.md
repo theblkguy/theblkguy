@@ -31,11 +31,15 @@ I'm actively seeking opportunities where I can contribute my skills, grow as a p
 
 <div align="center">
   
-  ![Banjoko's GitHub stats](https://github-readme-stats.vercel.app/api?username=theblkguy&show_icons=true&theme=radical&hide_border=true&include_all_commits=true)
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=theblkguy&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Banjoko's GitHub stats" />
   
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=theblkguy&layout=compact&theme=radical&hide_border=true)
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=theblkguy&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
   
-  ![GitHub Streak](https://streak-stats.demolab.com/?user=theblkguy&theme=radical&hide_border=true)
+</div>
+
+<div align="center">
+  
+  <img src="https://streak-stats.demolab.com/?user=theblkguy&theme=radical&hide_border=true" alt="GitHub Streak" />
   
 </div>
 
