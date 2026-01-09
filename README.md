@@ -62,7 +62,7 @@ I'm actively seeking opportunities where I can contribute my skills, grow as a p
       <img height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=theblkguy&theme=radical&utcOffset=0" alt="Productive Time" />
     </td>
     <td width="50%" align="center">
-      <img height="180px" src="https://github-readme-streak-stats.vercel.app/?user=theblkguy&theme=radical&hide_border=true" alt="GitHub Streak" />
+      <img height="180px" src="https://streak-stats.demolab.com/?user=theblkguy&theme=radical&hide_border=true" alt="GitHub Streak" />
     </td>
   </tr>
 </table>
